@@ -1,0 +1,19 @@
+node_modules
+/log/
+*.log
+*.pem
+*.done
+.DS_Store
+*.env
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+/.idea/
+*.iml
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

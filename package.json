@@ -1,0 +1,40 @@
+{
+  "name": "generated-articles",
+  "version": "1.0.0",
+  "description": "Generating articles using Telegram Bot, ChatGPT, Notion, and Docker",
+  "author": "Maksim Khitrov <khitrov.maks@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "nodejs",
+    "telegram",
+    "chatgpt",
+    "notion",
+    "docker",
+    "openai",
+    "telegraf"
+  ],
+  "homepage": "https://github.com/KhitrovMaksim/generated-articles#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KhitrovMaksim/generated-articles.git"
+  },
+  "bugs": {
+    "url": "https://github.com/KhitrovMaksim/generated-articles/issues"
+  },
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "start": "node ./src/main.js",
+    "dev": "nodemon ./src/main.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "@notionhq/client": "^2.2.13",
+    "config": "^3.3.9",
+    "dotenv": "^16.3.1",
+    "openai": "^4.5.0",
+    "telegraf": "^4.13.1"
+  }
+}
